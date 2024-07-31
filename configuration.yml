@@ -1,0 +1,15 @@
+data_source snowflake:  
+    type: snowflake
+    account: iw85464.ap-southeast-1
+    username: Rasheeth
+    password: A@s_08052023
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: a7c796a9-7de4-4402-8320-65e7a62db543
+  api_key_secret: mREECpmVY5y8uJ84Xg4510rFhGaqsSup8zhluBJKaXT5TGinZj_OMQ
